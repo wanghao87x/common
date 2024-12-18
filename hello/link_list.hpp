@@ -1,3 +1,6 @@
+#ifndef LINK_LIST_HPP
+#define LINK_LIST_HPP
+
 #include <iostream>
 #include "utils.hpp"
 
@@ -123,4 +126,4 @@ void test_link_list() {
     free_link_list(head);
 }
 
-
+#endif

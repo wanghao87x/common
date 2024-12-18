@@ -1,3 +1,6 @@
+#ifndef ARRAY_STACK_HPP
+#define ARRAY_STACK_HPP
+
 #include <vector>
 #include <iostream>
 #include "utils.hpp"
@@ -79,3 +82,5 @@ void test_array_stack() {
     std::cout << "pop: " << stack.pop() << std::endl;
 
 }
+
+#endif
