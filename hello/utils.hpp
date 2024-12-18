@@ -16,6 +16,8 @@ void print_array(const T (&array)[N]) {
 }
 
 inline void log_func_info(const char* filename, int line, const char* func_name) {
+    std::cout << std::endl;
+    std::cout << "======================================" << std::endl;
     std::cout << "[LOG_FUNC_INFO] in " << filename << ":" << line << " " << func_name << std::endl;
 }
 
