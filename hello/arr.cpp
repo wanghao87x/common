@@ -84,8 +84,9 @@ void test_arr() {
     int* new_arr = extend(arr, 10, 3);
 
     for (int i = 0; i < 13; ++i) {
-        std::cout << *(new_arr + i) << std::endl;
+        std::cout << *(new_arr + i) << " ";
     }
+    std::cout << std::endl;
 
 }
 
